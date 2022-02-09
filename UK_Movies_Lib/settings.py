@@ -131,3 +131,14 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+AWS_ACCESS_KEY_ID='AKIAZR7Z5JVLQAE7ZETS'
+
+AWS_SECRET_ACCESS_KEY='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'
+
+AWS_STORAGE_BUCKET_NAME='fashionstorage'
+
+AWS_QUERYSTRING_AUTH = False

@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@w97y0euzvz0m790@zn5g=)&*@qg_h1u^)*zx7rvts)e*@1d@8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['movie.favourministries.org','*']
 

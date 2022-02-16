@@ -127,6 +127,11 @@ STATIC_ROOT='/static/'
 STATIC_URL = '/static/'
 STATICFILES_DIRS=[os.path.join(BASE_DIR,'film/static')]
 
+AWS_LOCATION = 'static'
+  
+STATIC_URL = 'https://fashionstorage.s3.us-east-2.amazonaws.com/'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
